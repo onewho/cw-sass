@@ -1,17 +1,197 @@
 <!DOCTYPE html>
-
+<html>
 <head>
+  <title>Sass Demo</title>
 
+  <link rel="stylesheet" type="text/css" href="https://raw.github.com/h5bp/html5-boilerplate/master/css/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script|Julius+Sans+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/classwork.css" />
 </head>
 <body>
 
+<header class="header container">
+  <h1 class="h1">Guide to Espresso Drinks</h1>
+  <h2 class="h2">Know Your Order</h2>
+  <nav class="nav">
+    <ul class="inline-list">
+      <li class="list-item"><a href="#latte">Latte</a></li>
+      <li class="list-item"><a href="#cappuccino">Cappuccino</a></li>
+      <li class="list-item"><a href="#cortado">Cortado</a></li>
+      <li class="list-item"><a href="#macchiato">Macchiato</a></li>
+      <li class="list-item"><a href="#espresso">Espresso</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <article class="drink group" id="latte">
+    <header class="header">
+      <h1 class="h1">Latte</h1>
+      <h2 class="h2">8oz - 12oz, Lightly Textured Milk @ ~160&deg;</h2>
+    </header>
+
+    <p class="text">
+      <img class="img" src="http://distillery.s3.amazonaws.com/media/2011/02/22/296e12d20a4c493b8e2b83cec01a78d4_7.jpg" alt="latte" />
+      A latte (shortened form of the Italian caffe latte, meaning "coffee milk") is a
+      coffee drink made with espresso and steamed milk.
+    </p>
+
+    <p class="text">
+      Calling people latte drinkers has become a common political attack in Western cultures.
+      The popularity of espresso drinking in large cities, especially among populations that
+      are liberal advocates of pushing urban leftist policies onto those outside of big
+      cities and to blue-collar workers, has caused some to consider it elitist behavior.
+    </p>
+
+    <p class="text">
+      <a class="external" href="http://en.wikipedia.org/wiki/Latte">Read
+        more...</a>
+    </p>
+  </article>
+
+  <article class="drink group" id="cappuccino">
+    <header class="header">
+      <h1 class="h1">Cappuccino</h1>
+      <h2 class="h2">~6oz, Textured Milk @ ~145&deg;</h2>
+    </header>
+
+    <img class="img" src="http://distilleryimage5.s3.amazonaws.com/cb58532626e411e289de22000a9f1406_7.jpg" alt="cappuccino" />
+
+    <p class="text">
+      A cappuccino is a coffee drink topped with foamed milk. It is made in a
+      steam-producing espresso machine. Espresso is poured into the bottom third of the cup,
+      followed by a similar amount of hot milk. The top third of the drink consists of milk
+      foam; this foam can be decorated with artistic drawings made with the same milk,
+      called latte art.
+    </p>
+
+    <p class="text">
+      In a traditional cappuccino, as served in Europe and artisan coffee houses in the
+      United States, the total of espresso and milk/foam make up between approximately
+      150-180 mL (5-6 US fl oz). Crappy coffee chains in the US more often serve
+      the cappuccino as a 360 mL (12 US fl oz) drink or larger.
+    </p>
+
+    <blockquote class="quote">
+      A cappuccino should not have sugar or chocolate in it. The drink should never
+      be more than 6oz. If someone orders a 12oz cappuccino, they are actually
+      getting a latte. I think they just like to say the word
+      <em>cappuccino</em> to feel fancy.
+    </blockquote>
+
+    <p class="text">
+      <a class="external" href="http://en.wikipedia.org/wiki/Cappuccino">Read
+        more...</a>
+    </p>
+  </article>
+
+  <article class="drink group" id="cortado">
+    <header class="header">
+      <h1 class="h1">Cortado</h1>
+      <h2 class="h2">~5oz, Very Lightly Textured Milk @ ~135&deg;</h2>
+    </header>
+
+    <img class="img" src="http://farm3.staticflickr.com/2653/3917258627_dc409a2d9e_z.jpg" alt="cortado" />
+
+    <p class="text">
+      A cortado is an espresso cut with a small amount of warm milk. The ratio of
+      milk to coffee is between 1:1 - 1:2, and the milk is added after the espresso.
+      The word "cortado" is from the Spanish cortar, to cut.
+    </p>
+
+    <p class="text">
+      It is also commonly called a "Gibraltar" in the United States, especially on
+      the West Coast. The name Gibraltar originates in San Francisco, California,
+      where roasters such as Blue Bottle Coffee Company and Ritual Coffee Roasters
+      started the trend by serving the drink in Libbey-Owens-Ford glassware by the
+      same name.
+    </p>
+
+    <blockquote class="quote">
+      However a cortado is made, it should be distinguished from the Italian caffe
+      macchiato or cappuccino.
+    </blockquote>
+
+    <p class="text">
+      <a class="external" href="http://en.wikipedia.org/wiki/Cortado">Read
+        more...</a>
+    </p>
+  </article>
+
+  <article class="drink group" id="macchiato">
+    <header class="header">
+      <h1 class="h1">Macchiato</h1>
+      <h2 class="h2">~4oz, Textured Milk @ ~140&deg;</h2>
+    </header>
+
+    <p class="text">
+      <img class="img" src="http://farm2.staticflickr.com/1161/1400992704_d09d6b0a30_z.jpg" alt="macchiato" />
+      Caffe macchiato, sometimes called espresso macchiato, is a coffee drink, made out of
+      espresso with a small amount of milk. 'Macchiato' simply means 'marked' or 'stained',
+      and in the case of caffe macchiato, this means literally 'espresso stained/marked
+      with milk'. Traditionally it is made with one shot of espresso, and the small amount
+      of added milk was the 'stain'.
+    </p>
+
+    <p class="text">
+      The reason this coffee drink got its name was that the baristas needed to show the
+      serving waiters the difference between an espresso and an espresso with a tiny bit
+      of milk in it; the latter was 'marked'. In the United States, 'macchiato' is more
+      likely to describe latte macchiato, thus arises the common confusion that 'macchiato'
+      literally means 'foam', or that a macchiato must necessarily have foam.
+    </p>
+
+    <blockquote class="quote">
+      What <a href="http://www.starbucks.com">Starbucks</a> serves you is not a macchiato.
+      It's just an upside down latte (probably with a bunch of caramel and whipped cream).
+      If you order a macchiato at a real cafe, expect a 4oz drink.
+    </blockquote>
+
+    <p class="text">
+      <a class="external" href="http://en.wikipedia.org/wiki/Caff%C3%A8_macchiato">Read
+        more...</a>
+    </p>
+  </article>
+
+  <article class="drink group" id="espresso">
+    <header class="header">
+      <h1 class="h1">Espresso</h1>
+      <h2 class="h2">1oz - 2oz</h2>
+    </header>
+
+    <p class="text">
+      <img class="img" src="http://farm5.staticflickr.com/4123/4800639002_31e8a2f3a2.jpg" alt="espresso" />
+      Espresso is a concentrated beverage brewed by forcing a small amount of nearly
+      boiling water under pressure through finely ground coffee beans. Espresso often has
+      a thicker consistency than coffee brewed by other methods, a higher concentration of
+      suspended and dissolved solids, and crema (meaning cream, but being a reference to
+      the foam with a creamy texture that forms as a result of the pressure).
+    </p>
+
+    <p class="text">
+      Espresso is made by forcing very hot water under high pressure through finely ground,
+      compacted coffee. Tamping down the coffee promotes the water's even penetration
+      of the grounds. This process produces an almost syrupy beverage by extracting
+      both solid and dissolved components. It also produces the definitive crema, by
+      emulsifying the oils in the ground coffee into a colloid, which does not occur in
+      other brewing methods.
+    </p>
+
+    <blockquote class="quote">
+      Most modern specialty cafe's serve only a double espresso, the volume of which is
+      generally between 1oz and 2oz.
+    </blockquote>
+
+    <p class="text">
+      <a class="external" href="http://en.wikipedia.org/wiki/Espresso">Read
+        more...</a>
+    </p>
+  </article>
+</div>
+
+<footer class="footer container">
+  <p></p>
+</footer>
+
 </body>
-<!--stuff-->
-<section>
-<!--more stuff-->
-</section>
-
-
-
 </html>
-

@@ -1,0 +1,96 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #c0d5d3;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000; }
+
+a {
+  color: #d58544; }
+  a.external {
+    color: #fff;
+    background: #d58544;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem; }
+
+.h1 {
+  font-size: 3rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center; }
+
+.h2 {
+  font-size: 2.4rem;
+  font-family: "Petit Formal Script", cursive;
+  text-align: center;
+  color: #7e7d79; }
+
+.nav {
+  text-align: center; }
+  .nav a {
+    background-color: #5fc8c2;
+    color: #fff;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    -webkit-transition: background 0.2s ease;
+    transition: background 0.2s ease; }
+    .nav a:hover {
+      background: #50aca7; }
+
+.container {
+  width: 80%;
+  padding: 5%;
+  margin: 0 auto 1rem auto;
+  font-size: 1.6rem;
+  line-height: 133%;
+  background: #fff; }
+  .container .header .h1 {
+    font-size: 2.2rem; }
+  .container .header .h2 {
+    font-size: 1.8rem; }
+  .container .img {
+    width: 35%;
+    float: right;
+    margin: 0 0 1.5rem 1.5rem;
+    border: 5px solid black;
+    max-width: 100%;
+    -webkit-transition: background 0.2s ease;
+    transition: background 0.2s ease; }
+    .container .img:hover {
+      width: 50%;
+      margin: 0 0 2rem 2rem; }
+
+.drink {
+  padding: 5rem 0;
+  border-bottom: 1px dotted #7e7d79; }
+  .drink .header {
+    margin-bottom: 4rem; }
+
+.text {
+  line-height: 150%; }
+
+.inline-list {
+  margin: 0;
+  padding: 0; }
+  .inline-list .list-item {
+    display: inline;
+    margin: 0 0.5rem; }
+
+.quote {
+  background: #f2eee4;
+  padding: 1rem;
+  margin: 0;
+  color: #7e7d79;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease; }
+  .quote:hover {
+    color: #000;
+    background: #f2ecdc; }
+  .quote a {
+    color: #5fc8c2; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
